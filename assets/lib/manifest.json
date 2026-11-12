@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "three": "r160"
+  },
+  "files": {
+    "core.js": "cae46712629b036b9a0a665b18872462600a5dbbdc5230c4b3947d373148782b",
+    "audio.js": "b76196deb4acfa9c4c53e2f1f0203c56f18f8232597f17666d6b724021975f8d",
+    "three.min.js": "9ecebf89689fbcf853faf49cd2962f9542787260a5381342675ed8895f15bdea"
+  }
+}

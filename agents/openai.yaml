@@ -1,0 +1,4 @@
+interface:
+  display_name: "HTML Game"
+  short_description: "Build offline single-file games with code-generated assets"
+  default_prompt: "Use $html-game to build a playable single-file HTML game with procedural graphics and sound for my gameplay brief."

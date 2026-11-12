@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>@@TITLE@@</title><link rel="stylesheet" href="style.css"></head>
+<body><canvas id="view" tabindex="0" aria-label="Game view; use WASD, arrow keys or drag to move"></canvas><div id="ui"></div>
+<header><strong>@@TITLE@@</strong><span id="hud">Preparing</span><div><button id="mute" aria-pressed="false">Sound: on</button><button id="pause" disabled>Pause</button></div></header>
+<section id="panel" role="dialog" aria-labelledby="panel-title"><p class="eyebrow">COLLECT / EVADE / RETURN</p><h1 id="panel-title">@@TITLE@@</h1><p id="message">Collect 12 lights and avoid the patrols.<br>Use WASD, arrow keys or drag toward a destination.</p><button id="start" disabled>Generating world</button></section><p id="notice" role="status" aria-live="polite"></p><p class="controls">WASD / arrows · drag to move · P to pause</p>
+@@LIBRARIES@@
+<script src="game-core.js"></script><script src="host.js"></script><script src="game.js"></script>
+</body></html>
